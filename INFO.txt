@@ -1,0 +1,18 @@
+In this project we are going to learn new technologies
+and new concepts that are related to the projests 
+
+--while mentioning the path of the file we are not going to add / 
+  firstly
+   =>res.render("listings/show.ejs",{listing});
+
+--we have need to write ruppes sign and add commas here to use this syntax
+=><li>&#8377; <%=listing.price.toLocaleString("en-IN") %></li>
+
+--when we need to access multiple elements of the form then instead of taking each as we can create one object and then we can use it for further use
+
+==> 
+
+//we need to further project needed concepts midddleware and the error handling that two topics that are remained
+
+
+//Multer is a node.js middleware for handling multipart/form-data, which is primarily used for uploading files. It is written on top of busboy for maximum efficiency.
